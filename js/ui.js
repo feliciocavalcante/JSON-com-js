@@ -30,8 +30,8 @@ function renderLista() {
 
             li.innerHTML = `
             ${usuario.nome} (${usuario.email})
-            <button onclick="editar(${usuario.id})">Editar</button>
-            <button onclick="excluir(${usuario.id})">Excluir</button>
+            <button onclick="editar(${usuario.id})"class="editar">Editar</button>
+            <button onclick="excluir(${usuario.id})"class="excluir">Excluir</button>
             `;
             lista.appendChild(li);
         })
