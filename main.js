@@ -1,3 +1,3 @@
-mport { setupUI } from "./js/ui.js";
+import { setupUI } from "./js/ui.js";
 
 setupUI();
